@@ -20,6 +20,16 @@
             </Setter>
         </Style>
 
+        <Style x:Key="CustomSliderRepeatButtonIncrease" TargetType="RepeatButton">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RepeatButton">
+                        <Border VerticalAlignment="Stretch" Background="Black" Opacity="0"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
         <Style x:Key="CustomSliderThumb" TargetType="Thumb">
             <Setter Property="Template">
                 <Setter.Value>
